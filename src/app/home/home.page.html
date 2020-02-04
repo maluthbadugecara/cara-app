@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="primary">
+      Cara Employee
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col>
+      <div  style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        <img src="../../assets/imgs/CaraLogo.jpg"/>                          
+      </div>
+    </ion-col>
+  </ion-row>
+<ion-row>
+  <ion-col>
+      <ion-card>
+          <ion-card-header>
+              <ion-card-title>
+                  Log in to Cara
+              </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <form [formGroup]="form" (ngSubmit)="saveDetails(form.value)">
+              <ion-item>
+                <ion-label position="floating">Email</ion-label>
+                <ion-input type="email" [formControl]="form.controls['email']"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label position="floating">Password</ion-label>
+                <ion-input type="Password" [formControl]="form.controls['pwd']"></ion-input>
+              </ion-item> 
+              <div margin-vertical text-right>
+                <ion-button fill="outline" color="danger" id="btn-cancel">
+                    <ion-icon name="close" slot="start">
+                    </ion-icon>
+                    Clear
+                </ion-button>
+                <ion-button fill="outline" color="success" slot="start" id="btn-ok">
+                  <ion-icon name="add">
+                  </ion-icon>
+                  Log in
+                </ion-button>
+              </div>              
+            </form>
+            <div *ngIf="form.controls['email'].dirty && !form.controls['email'].valid">
+              <p style="color: red;" *ngIf="form.controls['email'].errors.InvalidEmail">Email Address is not valid.</p>
+            </div>
+            <div *ngIf="form.controls['pwd'].dirty && !form.controls['pwd'].valid">
+              <p  style="color: red;" *ngIf="form.controls['pwd'].errors.InvalidPwd">Password should have one uppercase, one lowercase and a number.</p>
+            </div>            
+          </ion-card-content>
+      </ion-card>    
+  </ion-col>
+</ion-row>        
+<!---     <div class="vertical-center">
+<div class="center">
+    <ion-img src="resources/CaraLogo.jpg" class="ion-align-self-end" href="#" onclick="showMessage()"/>
+</div>           
+</div>    -->  
+ <!--<ion-alert-controller></ion-alert-controller>-->
+</ion-content>

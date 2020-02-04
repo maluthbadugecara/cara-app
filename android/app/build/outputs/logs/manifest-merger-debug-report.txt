@@ -1,0 +1,433 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:38:13-47
+	android:authorities
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:36:13-64
+	android:exported
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:35:13-67
+manifest
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a007b0116aa84743c0e29eb8ca7c57a2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c6228d5171f9946788dd553287676fe3\AndroidManifest.xml:17:1-22:12
+MERGED from [:capacitor-cordova-android-plugins] C:\_Work\AngularApps\cara-app\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\aeb6ff5805f1d5302f829be317d263e4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c56e17e91983ac8b4ebe19259648c3e2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\d7ff86f6f0dbd785daf3232ec35abf08\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\94e162fe6aff3cdd2ddbeaee8a3a8073\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\66a878931dc3b6390958b11a2c1b275f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2422a356d25cd79579b84b7e6436feef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\06880c622b98a9b586291c25e70b6fdf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3e9ff734073bd5d6cc8a873ef13ecc16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9668932cbccae3609d4c161f4719e9b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4be7e24113efcf20a67809156d95d19d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\61e0e288d47d5613f00552e49d4b6acd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b916c265bc3f6be1713400148532ac22\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\a39dd01ea892d6e026df215b4ecc16d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9b843791e7091e2475354224cbc5e52c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f60909d08c9e45bedbfb3e7e1ac9bdfa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86159af6d3751994c0b225217b81699b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4ac65d73f71d17d12173f709e5dd3958\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e1ed385cf48d11836f36151c64c0aae1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\50eddb68dbb1215f309691df39b7ffc6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0ed42618f3a5a0e0e653086026ed232c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a03a24310acc71d0a14b1e2c61da0353\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\34bf9db68cb7ebe491e0f32798b18937\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9b3e3daa723004d4a87a92f88aa51028\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8f5acb9eeec9a589d44ca2c16fd9b409\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3b3a1d809ac0edeb12d3d60bb11339e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a5b1927fe597d0809a3bac56cc9ed8f0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c315ba3749b7259cdb3b7c4e0e2918a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fe7d0b4edb10a6ba513dfdb28c79fa42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0bd24730d4bdc9d189db9906df94cace\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\cb0059231d8096d03504db2a0877e933\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\0367177ab8d5700d25ec71035d2a4a19\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ff26b2dffa597c4873ae8a6329c7d4cd\AndroidManifest.xml:17:1-22:12
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\framework-7.0.0.aar\959a58371849e7a96c7e9fa4574bf3ae\AndroidManifest.xml:20:1-27:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:1-63:12
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:5:5-43:19
+MERGED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-34:19
+MERGED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-34:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a007b0116aa84743c0e29eb8ca7c57a2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a007b0116aa84743c0e29eb8ca7c57a2\AndroidManifest.xml:22:5-20
+MERGED from [:capacitor-cordova-android-plugins] C:\_Work\AngularApps\cara-app\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-13:19
+MERGED from [:capacitor-cordova-android-plugins] C:\_Work\AngularApps\cara-app\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-13:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\aeb6ff5805f1d5302f829be317d263e4\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\aeb6ff5805f1d5302f829be317d263e4\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c56e17e91983ac8b4ebe19259648c3e2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c56e17e91983ac8b4ebe19259648c3e2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\d7ff86f6f0dbd785daf3232ec35abf08\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\d7ff86f6f0dbd785daf3232ec35abf08\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\94e162fe6aff3cdd2ddbeaee8a3a8073\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\94e162fe6aff3cdd2ddbeaee8a3a8073\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a03a24310acc71d0a14b1e2c61da0353\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a03a24310acc71d0a14b1e2c61da0353\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.cara.app.MainActivity
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:13:9-32:20
+	android:label
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:16:13-56
+	android:launchMode
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:18:13-44
+	android:configChanges
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:14:13-90
+	android:theme
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:17:13-62
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:15:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:22:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/custom_url_scheme
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:25:13-30:29
+action#android.intent.action.VIEW
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:27:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:28:27-75
+data
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:29:17-68
+	android:scheme
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:29:23-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:47:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:47:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:49:5-79
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:49:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:52:5-81
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:52:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:53:5-79
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:53:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:54:5-66
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:54:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:56:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:56:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:59:5-65
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:59:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:61:5-71
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:61:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:62:5-79
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:62:22-77
+uses-sdk
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+MERGED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a007b0116aa84743c0e29eb8ca7c57a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a007b0116aa84743c0e29eb8ca7c57a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c6228d5171f9946788dd553287676fe3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c6228d5171f9946788dd553287676fe3\AndroidManifest.xml:20:5-44
+MERGED from [:capacitor-cordova-android-plugins] C:\_Work\AngularApps\cara-app\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:capacitor-cordova-android-plugins] C:\_Work\AngularApps\cara-app\android\capacitor-cordova-android-plugins\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\aeb6ff5805f1d5302f829be317d263e4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\aeb6ff5805f1d5302f829be317d263e4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c56e17e91983ac8b4ebe19259648c3e2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\c56e17e91983ac8b4ebe19259648c3e2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\d7ff86f6f0dbd785daf3232ec35abf08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\d7ff86f6f0dbd785daf3232ec35abf08\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\94e162fe6aff3cdd2ddbeaee8a3a8073\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\94e162fe6aff3cdd2ddbeaee8a3a8073\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\66a878931dc3b6390958b11a2c1b275f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\66a878931dc3b6390958b11a2c1b275f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2422a356d25cd79579b84b7e6436feef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\2422a356d25cd79579b84b7e6436feef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\06880c622b98a9b586291c25e70b6fdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customtabs-28.0.0.aar\06880c622b98a9b586291c25e70b6fdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3e9ff734073bd5d6cc8a873ef13ecc16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3e9ff734073bd5d6cc8a873ef13ecc16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9668932cbccae3609d4c161f4719e9b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\9668932cbccae3609d4c161f4719e9b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4be7e24113efcf20a67809156d95d19d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\4be7e24113efcf20a67809156d95d19d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\61e0e288d47d5613f00552e49d4b6acd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\61e0e288d47d5613f00552e49d4b6acd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b916c265bc3f6be1713400148532ac22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\b916c265bc3f6be1713400148532ac22\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\a39dd01ea892d6e026df215b4ecc16d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\a39dd01ea892d6e026df215b4ecc16d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9b843791e7091e2475354224cbc5e52c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\9b843791e7091e2475354224cbc5e52c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f60909d08c9e45bedbfb3e7e1ac9bdfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f60909d08c9e45bedbfb3e7e1ac9bdfa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86159af6d3751994c0b225217b81699b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\86159af6d3751994c0b225217b81699b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4ac65d73f71d17d12173f709e5dd3958\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4ac65d73f71d17d12173f709e5dd3958\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e1ed385cf48d11836f36151c64c0aae1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\e1ed385cf48d11836f36151c64c0aae1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\50eddb68dbb1215f309691df39b7ffc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\50eddb68dbb1215f309691df39b7ffc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0ed42618f3a5a0e0e653086026ed232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0ed42618f3a5a0e0e653086026ed232c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8b502f9d06b23c6c0748f7c451cc95fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a03a24310acc71d0a14b1e2c61da0353\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\a03a24310acc71d0a14b1e2c61da0353\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\34bf9db68cb7ebe491e0f32798b18937\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\34bf9db68cb7ebe491e0f32798b18937\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9b3e3daa723004d4a87a92f88aa51028\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\9b3e3daa723004d4a87a92f88aa51028\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8f5acb9eeec9a589d44ca2c16fd9b409\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\8f5acb9eeec9a589d44ca2c16fd9b409\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3b3a1d809ac0edeb12d3d60bb11339e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3b3a1d809ac0edeb12d3d60bb11339e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a5b1927fe597d0809a3bac56cc9ed8f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\a5b1927fe597d0809a3bac56cc9ed8f0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c315ba3749b7259cdb3b7c4e0e2918a8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\c315ba3749b7259cdb3b7c4e0e2918a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fe7d0b4edb10a6ba513dfdb28c79fa42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\fe7d0b4edb10a6ba513dfdb28c79fa42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0bd24730d4bdc9d189db9906df94cace\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0bd24730d4bdc9d189db9906df94cace\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\cb0059231d8096d03504db2a0877e933\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\cb0059231d8096d03504db2a0877e933\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\0367177ab8d5700d25ec71035d2a4a19\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\0367177ab8d5700d25ec71035d2a4a19\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ff26b2dffa597c4873ae8a6329c7d4cd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ff26b2dffa597c4873ae8a6329c7d4cd\AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\framework-7.0.0.aar\959a58371849e7a96c7e9fa4574bf3ae\AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:7.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\framework-7.0.0.aar\959a58371849e7a96c7e9fa4574bf3ae\AndroidManifest.xml:25:5-44
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:39:13-41:64
+	android:resource
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:41:17-51
+	android:name
+		ADDED from C:\_Work\AngularApps\cara-app\android\app\src\main\AndroidManifest.xml:40:17-67
+uses-feature#android.hardware.camera
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-47
+service#com.getcapacitor.plugin.background.BackgroundTaskService
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-84
+receiver#com.getcapacitor.plugin.notification.TimedNotificationPublisher
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:9-100
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:19-97
+receiver#com.getcapacitor.plugin.notification.NotificationDismissReceiver
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-101
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:19-98
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-25:37
+	android:value
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-34
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-64
+service#com.getcapacitor.CapacitorFirebaseMessagingService
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-33:19
+	android:stopWithTask
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-41
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-78
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-32:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-78
+	android:name
+		ADDED from [:capacitor-android] C:\_Work\AngularApps\cara-app\node_modules\@capacitor\android\capacitor\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-75
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-messaging-18.0.0.aar\ea251312c8d535080d1e3aee28bb0ff0\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:26:22-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-iid-18.0.0.aar\be36b73ff12ca40f019651556d0d7fd2\AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\firebase-common-17.0.0.aar\6dc12b53a35f9ab7bc675ca485186316\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\088a20c1ae0f5d6207deecd42f883226\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\01ca90ddc3bd580101ded3fdf17fe93c\AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e16becb1b8f22c37540e20662a4bbd97\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\maluthbaduge\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1930ab4f1ccaf18de589388cf049cc2b\AndroidManifest.xml:27:13-51
