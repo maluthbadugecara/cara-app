@@ -1,8 +1,0 @@
-{
-  "appId": "com.cara.app",
-  "appName": "cara-app",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www",
-  "cordova": {}
-}
