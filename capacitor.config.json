@@ -1,5 +1,5 @@
 {
-  "appId": "com.cara.app",
+  "appId": "io.ionic.starter",
   "appName": "cara-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",
