@@ -3,6 +3,7 @@
 # Add steps that test, sign, and distribute the APK, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/android
 
+
 trigger:
 - master
 
@@ -14,7 +15,6 @@ steps:
 - task: CordovaBuild@1
   inputs:
     platform: 'android'
-    configuration: '$(Configuration)'
-    archs: 'arm'
-    cordovaVersion: '9.0.0'
+    configuration: 'debug'
+    cordovaVersion: '7.1.0'
     outputPattern: 'bin'
