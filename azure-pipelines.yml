@@ -10,8 +10,11 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
+
 - task: CordovaBuild@1
   inputs:
     platform: 'android'
     configuration: '$(Configuration)'
+    archs: 'arm'
+    cordovaVersion: '9.0.0'
     outputPattern: 'bin'
