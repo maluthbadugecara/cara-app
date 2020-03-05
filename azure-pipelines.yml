@@ -1,11 +1,4 @@
 # Android
-- task: CordovaBuild@1
-  inputs:
-    platform: 'android'
-    configuration: '$(Configuration)'
-    cordovaVersion: '7.1.0'
-    keyPass: 'maluthbaduge@cara.org.au'
-    outputPattern: 'bin'
 # Build your Android project with Gradle.
 # Add steps that test, sign, and distribute the APK, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/android
@@ -17,11 +10,8 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
-- task: Gradle@2
+- task: CordovaBuild@1
   inputs:
-    workingDirectory: ''
-    gradleWrapperFile: 'gradlew'
-    gradleOptions: '-Xmx3072m'
-    publishJUnitResults: false
-    testResultsFiles: '**/TEST-*.xml'
-    tasks: 'assembleDebug'
+    platform: 'android'
+    configuration: '$(Configuration)'
+    outputPattern: 'bin'
