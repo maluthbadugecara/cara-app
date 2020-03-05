@@ -29,6 +29,7 @@
     "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
     "core-js": "^2.5.4",
+    "ionic-plugin-keyboard": "^2.2.1",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
@@ -76,7 +77,8 @@
       "cordova-plugin-ionic-webview": {
         "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
       },
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "ionic-plugin-keyboard": {}
     },
     "platforms": [
       "android",
