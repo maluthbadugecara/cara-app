@@ -15,6 +15,6 @@ steps:
 - task: CordovaBuild@1
   inputs:
     platform: 'android'
-    configuration: 'debug'
-    cordovaVersion: '7.1.0'
+    configuration: '$(Configuration)'
+    cordovaVersion: '7.0.0'
     outputPattern: 'bin'
