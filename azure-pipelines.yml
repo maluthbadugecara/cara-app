@@ -12,6 +12,8 @@ pool:
 
 steps:
 
-- task: CordovaCommand@1
+- task: CordovaBuild@1
   inputs:
-    cordovaCommand: 'ionic serve'
+    platform: 'android'
+    configuration: '$(Configuration)'
+    outputPattern: 'bin'
