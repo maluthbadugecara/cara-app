@@ -18,4 +18,3 @@ steps:
     configuration: '$(Configuration)'
     outputPattern: 'bin'
     cordovaVersion: '7.0.0'
-    outputPattern: 'bin'
